@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+div {
+  border: 3px solid black;
+  background-color: lightblue;
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+}
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
+</style>
+</head>
+<body>
+
+<h1>CA THI KIM NGAN</h1>
+
+<div>Hello friends. I would like to introduce a little bit about myself. I was born on May 1, 2003, into a poor family living in the mountainous area of ​​Khanh Vinh in Khanh Hoa province. I myself am a close person who is easy to contact, so I have a lot of friends, wherever I go, I can make friends.</div>
+<h2>These are the things i like</h2>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+  <li>Travel</li>
+  <li>Go out with friends</li>
+  <li>Go eat with family</li>
+  <li>Love going to the beach</li>
+  <li>Love talking to me</li>
+</ul>
+
+</body>
+</html>
+
+
