@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
     <html>
            <head>
@@ -30,18 +31,30 @@
           <button type="button" onclick="tinhtongchan()">Tinh tong chan</button>  
             <script>
               function hienthi() {
-	                // Giới thiệu tên
-                document.getElementById("noidung").innerHTML = "Xin chào. Tôi là Kim Ngân";
-              }
-             function tinhtong() {
-                  //Tính tổng từ 1 -> 10
-	              document.getElementById("noidung").innerHTML =1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 ;
-              }
+// Giới thiệu tên
+                document.getElementById("noidung").innerHTML = "Xin chào! Tôi là : Ca Thị Kim Ngân";
+}
+            function tinhtong() {
+//Tính tổng từ 1 -> 10
+                let text=0;
+                for(let i=1;i<=10;i++){
+                    text +=i;
+                }
+                document.getElementById("noidung").innerHTML =text;
+}
             function tinhtongchan() {
-                  //Tính tổng các số chẳn từ 1 -> 10
-	              document.getElementById("noidung").innerHTML =2 + 4 + 6 + 8 + 10 ;
+//Tính tổng các số chẳn từ 1 -> 10
+                let text=0;
+                for(let i=1;i<=10;i++){
+                    if(i%2==0){
+                        text +=i;
+                    }
+                }
+                document.getElementById("noidung").innerHTML =text;
               }
             </script>    
          </body>
     </html>
+      
+
       
